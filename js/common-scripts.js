@@ -90,6 +90,12 @@
             });
         }
         
+        if ($("select.styled-select").length) {
+            $("select.styled-select").selectric({
+
+            });
+        }
+        
 		
 	})// End ready function.
    

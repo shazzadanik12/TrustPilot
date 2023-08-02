@@ -465,10 +465,86 @@ body,html{height: 100%;}
 .login-bottom a.business-signup:hover{border: 1px solid #52ab98; color: #52ab98;}
 /*===Login Page End===*/
 
+/*===Business-login Page start===*/
+.business-login-wrap{float: left; width: 100%; padding: 50px 0 80px;}
+.business-login-wrap .common-wrap{max-width: 605px;}
+.business-login-inner{float: left; width: 100%;}
+.business-login-main{float: left; width: 100%; padding: 45px 20px; border-radius: 10px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25); background-color: #ffffff; justify-content: center;}
+.business-login-form{max-width: 410px; width: 100%; text-align: center;}
+.business-login-form h4{text-align: center; font-weight: 700; margin-bottom: 20px;}
+.business-login-form input:not([type="submit"]){float: left; width: 100%; border: none; border-radius: 50px; background-color: #ffffff; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15); padding: 11px 30px; margin-bottom: 20px; font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; color: #000000;}
+.business-login-form input:not([type="submit"])::placeholder{color: rgba(68, 68, 68, 0.5);}
+.business-login-form input[type="submit"]{float: left; width: 100%; border: none; background-color: #52ab98; color: #ffffff; font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 18px; line-height: 28px; padding: 11px 30px; border-radius: 50px; margin-bottom: 20px;}
+.business-login-form a{font-size: 15px; line-height: normal; color: #52ab98; font-family: 'Mulish', sans-serif; font-weight: 400; text-align: center; margin-bottom: 20px; display: block;}
+.business-login-form span{font-size: 15px; line-height: normal; color: #000000; font-family: 'Mulish', sans-serif; font-weight: 400; text-align: center;}
+.business-login-form span a{display: inline-block;}
+.business-login-btns{width: 100%; text-align: center; margin-top: 40px;}
+.business-login-btns a{max-width: 410px; width: 100%; border-radius: 50px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15); background-color: #ffffff; text-align: center; transition: 0.4s ease-in-out; font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 18px; line-height: 28px; color: rgba(68, 68, 68, 0.8); padding: 11px 20px 11px 47px; margin-bottom: 20px; position: relative;}
+.business-login-btns a:after{content: ''; position: absolute; width: 35px; height: 35px; top: 50%; left: 8px; transform: translateY(-50%); background-image: url(../svgs/google.svg); background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.business-login-btns a.fb-login:after{background-image: url(../svgs/logos_facebook.svg);}
+.business-login-btns a:hover{background-color: #000000; color: #ffffff;}
+/*===Business-login Page end===*/
+
 
 /*===Categories-single Page Start===*/
 .categories-single-page .hero-content h1{margin-bottom: 25px;}
 .categories-single-page .hero-content p{text-align: center;}
+.category-single-wrap{float: left; width: 100%; padding: 50px 0 70px;}
+.category-single-inner{float: left; width: 100%;}
+.category-single-sidebar{float: left; width: 270px; padding: 20px 15px 30px; border-radius: 10px; background-image: linear-gradient(to bottom, #2b6777 1%, rgba(43, 103, 119, 0.77) 45%, rgba(82, 171, 152, 0.5) 100%); box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);}
+.category-sidebar-item{float: left; width: 100%; margin-bottom: 25px;}
+.category-sidebar-item:last-child{margin-bottom: 0;}
+.category-sidebar-item h6{font-size: 18px; line-height: 28px; font-weight: 700; color: #ffffff; margin-bottom: 10px;}
+.category-sidebar-item .selectric .label{float: left; width: 100%; font-size: 14px; line-height: 24px; color: rgba(0, 0, 0, 0.45); height: 40px; border-radius: 5px; background-color: #ffffff; padding: 8px 30px 8px 15px; margin: 0;}
+.category-sidebar-item .selectric{border-radius: 5px;}
+.category-sidebar-item input[type="text"]{float: left; width: 100%; border: none; border-radius: 5px; background-color: #ffffff; padding: 8px 15px; color: #000000; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; margin-top: 15px;}
+.category-sidebar-item input[type="text"]::placeholder{color: rgba(0, 0, 0, 0.45);}
+.category-input-row{float: left; width: 100%; margin-bottom: 5px;}
+.category-input-row:last-child{margin-bottom: 0;}
+.category-input-row label{font-size: 14px; line-height: 24px; font-family: 'Montserrat', sans-serif; font-weight: 400; color: #000000;}
+.category-input-row input[type="radio"]{-webkit-appearance: none; appearance: none; width: 17px; height: 17px; background-color: #ffffff; border-radius: 100%; border: 1px solid #52ab98; position: relative;}
+.category-input-row input[type="radio"]:after{content: ''; position: absolute; width: 10px; height: 10px; border-radius: 100%; background-color: #52ab98; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none;}
+.category-input-row input[type="radio"]:checked:after{display: block;}
+.category-sidebar-item a{float: left; min-width: 97px; padding: 7px 15px; border-radius: 50px; background-color: #c8d8e4; color: #000000; text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; line-height: normal; margin-right: 3px; margin-bottom: 5px;}
+
+.category-single-content{float: left; width: calc(100% - 270px); padding-left: 20px;}
+.category-single-content-main{float: left; width: 100%; border-radius: 10px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25); padding: 30px 20px 70px;}
+.company-filter{float: left; width: 100%; align-items: center;}
+.company-filter span{font-size: 18px; line-height: 28px; font-weight: 600; color: #000000;}
+.selectric-wrap{width: auto; align-items: center;}
+.selectric-wrap dfn{font-weight: 600; color: #000000; margin-right: 10px;}
+.selectric-wrap .selectric{border-radius: 5px; border: 1px solid #52ab98; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);}
+.selectric-wrap .selectric .label{font-size: 18px; line-height: normal; font-family: 'Montserrat', sans-serif; font-weight: 400; padding: 8px 44px 11px 10px; margin: 0;}
+.company-item-wrap{float: left; width: 100%; margin-top: 30px;}
+.company-item{float: left; width: 100%; border-radius: 10px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25); border: 1px solid #52ab98; padding: 15px 15px 10px;}
+.company-item-top{float: left; width: 100%; padding-bottom: 20px; border-bottom: 1px solid rgba(0, 0, 0, 0.3); position: relative;}
+.tag-mark{position: absolute; top: 0; right: 0; padding: 7px 15px; border-radius: 50px; text-align: center; font-size: 13px; line-height: normal; font-family: 'Montserrat', sans-serif; font-weight: 600; background-color: #c8d8e4; color: #000000;}
+.company-item-thumb{width: 100px;}
+.company-item-thumb img{float: left; width: 100%;}
+.company-item-content{width: calc(100% - 100px); padding-left: 10px;}
+.company-item-content h6{font-size: 18px; line-height: 28px; color: #000000; font-family: 'Mulish', sans-serif; font-weight: 700; margin-bottom: 5px;}
+.trust-score{float: left; width: 100%; margin-top: 10px;}
+.trust-score span{color: #444444; font-size: 15px; line-height: normal; padding-right: 60px; position: relative;}
+.trust-score span:after{content: ''; position: absolute; width: 1px; height: 100%; background-color: #444444; top: 50%; right: 30px; transform: translateY(-50%);}
+.trust-score span:last-child:after{display: none;}
+.company-item-content address{float: left; color: #444444; font-size: 15px; line-height: normal; margin-top: 15px; padding-left: 25px; position: relative;}
+.company-item-content address:after{content: ''; position: absolute; width: 20px; height: 20px; top: 50%; left: 0; transform: translateY(-50%); background-image: url(../svgs/carbon_location.svg); background-repeat: no-repeat; background-position: center center; background-size: cover;}
+.company-contact{float: left; width: auto; padding-right: 15px; border-right: 1px solid #444444;}
+.company-contact a{margin-right: 5px;}
+.company-item-bottom{float: left; width: 100%; align-items: center;}
+.review-accordion-trigger{}
+.review-accordion-trigger h6{font-size: 15px; line-height: normal; font-family: 'Montserrat', sans-serif; font-weight: 600; color: #000000; padding-right: 29px; position: relative;}
+.review-accordion-trigger h6:after{content: ''; position: absolute; width: 24px; height: 24px; top: 50%; right: 0; transform: translateY(-50%); background-image: url(../svgs/arrow-down-drop.svg); background-repeat: no-repeat; background-position: center center; background-size: cover;}
+.review-accordion-content{float: left; width: 100%; margin-top: 20px;}
+.review-accordion-content-item{float: left; width: 32.215%; margin-right: 1.6%; border: 1px solid #52ab98; border-radius: 10px; padding: 15px 10px;}
+.review-accordion-content-item:nth-child(n + 3){margin-right: 0;}
+.review-accordion-top{float: left; width: 100%; align-items: center;}
+.review-accordion-top-icon{width: 30px;}
+.review-accordion-top-icon img{float: left; width: 100%;}
+.review-accordion-top-content{width: calc(100% - 30px); padding-left: 10px;}
+.review-accordion-top-content h6{font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 15px; line-height: normal; color: #000000;}
+.review-accordion-main-content{float: left; width: 100%; margin-top: 15px;}
+.review-accordion-main-content p{font-size: 14px; line-height: 24px; color: #000000;}
 /*===Categories-single Page End===*/
 
 
@@ -662,6 +738,12 @@ body,html{height: 100%;}
     .login-bottom p{font-size: 16px; line-height: normal;}
     .login-bottom a{font-size: 15px; line-height: 23px; padding: 11px 20px;}
     /*===Login Page End===*/
+    
+    /*===Business Login Page Start===*/
+    .business-login-btns a{font-size: 15px; line-height: 25px;}
+    .business-login-btns a:after{width: 30px; height: 30px;}
+    .business-login-form input:not([type="submit"]){font-size: 16px; line-height: 26px;}
+    /*===Business Login Page End===*/
 
 
 
@@ -696,6 +778,9 @@ body,html{height: 100%;}
     .login-top a{font-size: 18px; line-height: 28px;}
     .login-top a:after{width: 35px; height: 35px;}
     .login-bottom a{font-size: 18px; line-height: 28px;}
+    .business-login-btns a{font-size: 18px; line-height: 28px;}
+    .business-login-btns a:after{width: 35px; height: 35px;}
+    .business-login-form input:not([type="submit"]){font-size: 18px; line-height: 28px;}
     
 
 }

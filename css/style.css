@@ -440,6 +440,38 @@ body,html{height: 100%;}
 .category-item-links ul li a:hover:before{background-color: #ffffff;}
 /*===Categories Page End===*/
 
+/*===Login Page Start===*/
+.login-wrap{float: left; width: 100%; padding: 50px 0 80px;}
+.login-wrap .common-wrap{max-width: 605px;}
+.login-inner{float: left; width: 100%;}
+.login-title{float: left; width: 100%; text-align: center;}
+.login-title h1{font-size: 40px; line-height: 50px; font-weight: 700; color: #52ab98;}
+.login-main{float: left; width: 100%; margin-top: 50px; padding: 45px 20px; border-radius: 10px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25); background-color: #ffffff; justify-content: center;}
+.login-top{width: 100%; text-align: center;}
+.login-top h4, .login-bottom h4{text-align: center; font-weight: 700; margin-bottom: 20px;}
+.login-top a{max-width: 410px; width: 100%; border-radius: 50px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15); background-color: #ffffff; text-align: center; transition: 0.4s ease-in-out; font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 18px; line-height: 28px; color: rgba(68, 68, 68, 0.8); padding: 11px 20px 11px 47px; margin-bottom: 20px; position: relative;}
+.login-top a:after{content: ''; position: absolute; width: 35px; height: 35px; top: 50%; left: 8px; transform: translateY(-50%); background-image: url(../svgs/google.svg); background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.login-top a.fb-login:after{background-image: url(../svgs/logos_facebook.svg);}
+.login-top a:hover{background-color: #000000; color: #ffffff;}
+.login-top a:last-child{margin-bottom: 0;}
+.or-devider{max-width: 410px; width: 100%; padding: 10px 0; margin-top: 30px; border-bottom: 1px solid #52ab98; text-align: center;}
+.or-devider span{display: block; font-family: 'Mulish', sans-serif; font-weight: 400; font-size: 18px; line-height: 28px; color: #000000;}
+.login-bottom{float: left; width: 100%; margin-top: 40px; text-align: center;}
+.login-bottom h4{margin-bottom: 10px;}
+.login-bottom p{font-family: 'Mulish', sans-serif; font-weight: 400; color: #000000; margin-bottom: 30px;}
+.login-bottom a{max-width: 410px; width: 100%; border-radius: 50px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15); background-color: #000000; text-align: center; transition: 0.4s ease-in-out; font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 18px; line-height: 28px; color: #52ab98; padding: 11px 30px; margin-bottom: 20px; position: relative; border: 1px solid transparent;}
+.login-bottom a.business-signup{background-color: #52ab98; color: #ffffff;}
+.login-bottom a:hover{border: 1px solid #000000; background-color: transparent; color: #000000;}
+.login-bottom a.business-signup:hover{border: 1px solid #52ab98; color: #52ab98;}
+/*===Login Page End===*/
+
+
+/*===Categories-single Page Start===*/
+.categories-single-page .hero-content h1{margin-bottom: 25px;}
+.categories-single-page .hero-content p{text-align: center;}
+/*===Categories-single Page End===*/
+
+
 
 
 
@@ -622,6 +654,14 @@ body,html{height: 100%;}
     .category-item-wrap{margin-top: 35px;}
     .category-item{width: 100%; margin: 0 0 20px;}
     /*===Categories Page End===*/
+    
+    /*===Login Page Start===*/
+    .login-title h1{font-size: 30px; line-height: 40px;}
+    .login-top a{font-size: 15px; line-height: 25px;}
+    .login-top a:after{width: 30px; height: 30px;}
+    .login-bottom p{font-size: 16px; line-height: normal;}
+    .login-bottom a{font-size: 15px; line-height: 23px; padding: 11px 20px;}
+    /*===Login Page End===*/
 
 
 
@@ -653,6 +693,9 @@ body,html{height: 100%;}
     .contact-info-inner{justify-content: center;}
     .category-item{width: 48%; margin: 0 1% 20px;}
     .large-circle-shape{width: 100%;}
+    .login-top a{font-size: 18px; line-height: 28px;}
+    .login-top a:after{width: 35px; height: 35px;}
+    .login-bottom a{font-size: 18px; line-height: 28px;}
     
 
 }

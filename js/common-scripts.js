@@ -9,7 +9,8 @@
             $("body").toggleClass("navShown");
             $(".nav-wrap, .dashboard-nav").fadeToggle()
         });
-
+        
+        
         
         if ($('.review-item-wrap').length) {
             $('.review-item-wrap').slick({
@@ -156,6 +157,22 @@
             $(activeTab).fadeIn();
             return false;
         });
+        
+        
+        
+        var header = new Headroom(document.querySelector('header'), {
+            tolarence: 80,
+            offset: 155,
+            classes: {
+
+                initial: 'headroom',
+                pinned: 'slidedown',
+                unpinned: 'slideup'
+
+
+            }
+        });
+        header.init();
         
 		
 	})// End ready function.

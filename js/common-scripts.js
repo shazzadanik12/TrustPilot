@@ -159,6 +159,24 @@
         });
         
         
+        $(".privacy-accordion-item").each(function(){
+            var $this = $(this);
+            $this.find(" > h4").on("click touch", function(){
+                $(".privacy-accordion-item").removeClass("privacy-accordion-active")
+                $(".privacy-accordion-content").slideUp();
+                if($this.find(".privacy-accordion-content:visible").length){
+                    $(".company-item-bottom").removeClass("privacy-accordion-active")
+                    $(".privacy-accordion-content").slideUp();
+                }
+                else{
+                    $this.addClass("privacy-accordion-active")
+                    $(".privacy-accordion-content").slideUp();
+                    $this.find(" > .privacy-accordion-content").slideDown();
+                }
+            })
+        })
+        
+        
         
         var header = new Headroom(document.querySelector('header'), {
             tolarence: 80,
